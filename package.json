@@ -1,0 +1,38 @@
+{
+  "name": "range",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/albreax/range.git"
+  },
+  "author": "Albrecht Naumann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albreax/range/issues"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "ts-jest"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+  },
+  "homepage": "https://github.com/albreax/range#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.4.0",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  }
+}
